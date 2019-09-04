@@ -1,0 +1,25 @@
+ <style>
+    .nav:after {
+    content:"";
+    clear:both;
+    display:block;
+    }
+    .nav li {
+     float: left;
+     list-style-type: none;
+     }
+     </style>
+     <ul class="nav">
+       <li><a href="#about">About</a></li>
+       <li><a href="#blog">Blog</a></li>
+       <li><a href="#projects">Projects</a></li>
+     </ul>
+    <div id="about">
+      Lorem Ipsum
+    </div>
+    <div id="blog">
+      Lorem Ipsum
+    </div>
+    <div id="projects">
+      Lorem Ipsum
+    </div>

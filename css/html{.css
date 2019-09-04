@@ -1,0 +1,119 @@
+html{
+	font-family: helvetica;
+    background-color:  #C0C0C0;
+}
+
+
+h1{
+	color: purple;
+	text-align: center;
+}
+h2{
+	color: tomato;
+	padding-left: 30px;
+}
+p{
+	padding-left: 30px;
+}
+main{
+	background-color: green;
+	max-width: 800px;
+}
+iframe {
+	width: 100%;
+}
+
+/*img{
+	color-interpolation-filters: 
+}*/
+
+footer{
+	background-color: #444;
+	color: blue;
+	height: 60px;
+	line-height: 60px;
+	text-align: right;
+	padding-right: 30px;
+	text-align: center;
+
+}
+@media screen and (min-width: 960px)
+ {/*when my is 960px or wider ... do the following:  */
+
+main{
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+
+	}
+
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+
+
+
+/*nav bar*/
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}*/
+
+
+/*.test {
+	color: blue;
+}*/
+
+
+
+    
